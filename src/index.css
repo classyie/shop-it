@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar-right{
+  list-style: none;
+  padding-right: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-right a{
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: black;
+}
+
+.cart-img{
+  width: 4%;
+}
+.cart-img:hover{
+  width: 4.5%;
+}
+.cart-right {
+  margin-right: -510px;
+}
+
+.mycards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+  justify-content: center;
+}
+
+.card{
+  width: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 350px;
+}
+.card img{
+  width: 90%;
+  /* height: 10%; */
+  /* object-fit: cover; */
+  margin: 10px 10px;
+  padding: 10px 20px;
+  
+}
+
+.card-body{
+  padding: 10px;
+}
+
+.card h2{
+  font-size: 3em;
+}
+.card .price{
+  font-size: 1.5em;
+}
+
+.card button{
+  font-weight: bold;
+  background-color: #b1f1e7;
+  color: #0f0101;
+  max-width: 50%;
+  margin: 3% 27%;
 }
